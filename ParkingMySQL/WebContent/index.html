@@ -1,0 +1,72 @@
+<html >
+<head >	
+	 <meta charset="utf-8">
+	<title>Parking</title>
+	<style type="text/css">
+a{
+	text-decoration: none;
+}
+h1{
+	margin-left: 340px;
+}
+body{
+	background-color: #D8D1D1;
+}
+#buscar{
+	float: left;
+	margin-left:600px;
+	margin-top: -100px;
+}
+#anadir{
+	float: left;
+	margin-top: 50px;
+	position: absolute;
+	margin-left:600px;
+	
+}
+#eliminar{
+	float: left;
+	
+}
+	</style>
+</head>
+<body >
+	<h1>Gestion Parking</h1>
+	<br>
+	<br>
+	<br>
+		<h3>Mostrar los Vehiculos del parking</h3>
+			<form action="LoginWeb.jr" method="POST" >
+			<input type="submit" value="Listar" >
+		<br>
+		<br>
+		</form>
+	
+		<div id="buscar">
+		<form action="#" method="POST">
+			<h3>Introduze la matricula para buscar su coche</h3>
+			<input type="text">
+			<input type="submit" value="Buscar">
+			<br>
+			<br>
+		</form>
+		</div>
+		<div id="anadir">
+<h3>Click en el boton para añadir su coche</h3>
+		<a href="añadir.html"><input type="submit" value="Add"></a>
+		</div>
+		
+		<br>
+		<br>
+
+		<div id="eliminar">
+			<form action="#" method="POST">
+			<h3>Introduzca su matricula para eliminar su coche</h3>
+			<input type="text">
+			<button>Borrar</button>
+		</form>
+	
+		</div>
+		
+</body>
+</html>
